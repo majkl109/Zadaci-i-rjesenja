@@ -11,13 +11,13 @@ public class Zadatak02 {
 	
 	public static void main(String[] args) {
 
+		System.out.println("Unesi 1. broj");
+		
+		int i = Integer.parseInt(args[4]);
 		
 		
-		int b = Integer.parseInt(args [0]);
 		
-		
-		
-		System.out.println(" ");
+		System.out.println(args[i]);
 	}
 
 }
